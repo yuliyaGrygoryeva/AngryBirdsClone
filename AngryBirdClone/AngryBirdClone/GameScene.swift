@@ -241,8 +241,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 bird.zPosition = 1
                 bird.position = originalPosition!
                 
-                score = 0
-                scoreLabel.text = String(score)
+//                score = 0
+//                scoreLabel.text = String(score)
                 
                 gameStarted = false
             }
